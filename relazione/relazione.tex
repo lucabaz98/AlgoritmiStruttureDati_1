@@ -1,0 +1,24 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[total={170mm,267mm},top=15mm,bottom=15mm,left=21mm,right=21mm]{geometry}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\graphicspath{{img/}}
+\begin{document}
+
+    \input{chapters/primaPagina.tex}
+    \pagebreak
+    \tableofcontents{}
+    \pagebreak
+    \input{chapters/consegna.tex}
+    \input{chapters/approccio.tex}
+    \input{chapters/analisiDeiTempi.tex}
+    \input{chapters/conclusioni.tex}
+
+\end{document}\\
